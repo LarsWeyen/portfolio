@@ -1,0 +1,136 @@
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 7rem;
+    position: relative;
+}
+
+.project-image-container{
+    position: relative;   
+    width: fit-content;
+}
+
+.project-image{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.tech-container{
+    position: relative;
+    height: fit-content;
+    max-width: 360px;
+    margin: 1.3rem 3rem;
+   
+}
+
+.tech-container-inner{
+    padding: 20px;
+}
+
+.tech-container-inner:after{
+    bottom:0; right:0;
+    border-right: 1px solid #E3FFFF;
+    border-bottom: 1px solid #E3FFFF;
+}
+
+
+.tech-container:before, .tech-container-inner:after{
+    content:'';
+    position:absolute;
+    height:30%;
+    width:30%;
+    pointer-events: none;
+}
+
+.tech-container:before{
+    border-left: 1px solid #E3FFFF;
+    border-top: 1px solid #E3FFFF;
+    
+}
+
+.project-title{
+    grid-column: span 2;
+    font-size: 21px;
+}
+
+.project-description{
+    grid-column: span 2;
+}
+
+.project-buttons{
+    grid-column: span 2;
+}
+
+.tech-item{
+    display: flex;
+    justify-content: space-between;
+    max-width: 330px;
+    font-size: 18px;
+    color: #C7F5F5;
+    padding-block: 3px;
+}
+
+.tech-title{
+    color: #FFFFFF;
+}
+
+.tech-box{
+    display: grid;
+    grid-template-columns: 9px 1fr;
+    gap: 0.3rem;
+}
+
+.tech-rect{
+    background-color: rgba(227, 255, 255, 0.6);
+    width: 9px;
+    opacity: 0;
+}
+
+.tech-rect-hover{
+    background-color: rgba(227, 255, 255, 0.6);
+    width: 9px;
+}
+
+.tech-hover{
+    background-color: rgba(227, 255, 255, 0.6);
+    opacity: 1;
+}
+
+.pagination{
+    position: absolute;
+    right: 10rem;
+    bottom: 11rem;
+    display: flex;
+}
+
+.button-hover{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.github-button{
+    pointer-events: none;
+}
+
+.arrow-button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.arrow-button-fill{
+    fill: #393939;
+}
+.arrow-button:hover .arrow-button-fill{
+    fill: #C7F5F5;
+}

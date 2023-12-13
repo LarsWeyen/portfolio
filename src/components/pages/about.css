@@ -1,0 +1,23 @@
+.about-container{
+    margin-inline: 7rem;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-image-container{
+    position: relative;
+}
+
+.about-image{
+    position: absolute;
+    width: 280px;
+    height: 284px;
+    left: 16px;
+    top: 31px;
+}
+
+.about-description{
+    opacity: 0.9;
+}

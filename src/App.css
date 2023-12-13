@@ -1,0 +1,40 @@
+:root{
+    --clr-primary-400: #E3FFFF;
+    --clr-accent-400: #C7F5F5;
+    --ff-primary: 'Orbitron', sans-serif;
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+}
+
+body{
+    font-family: var(--ff-body);
+    color: var(--clr-primary-400);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.text-primary-400{
+    color: var(--clr-primary-400);
+}
+
+.text-accent-400{
+    color: var(--clr-accent-400);
+}
+
+.fw-bold{ font-weight: var(--fw-bold);}
+.fw-regular{ font-weight: var(--fw-regular);}
+.fw-semi-bold{ font-weight: var(--fw-semi-bold);}
+
+main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+}

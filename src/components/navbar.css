@@ -1,0 +1,63 @@
+.navitem{
+    position: relative;
+    width: fit-content;
+    pointer-events: none;
+}
+
+.navitem-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    top: 13%;
+    left: 10%;
+    pointer-events: none;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.nav-hr{
+    max-height: 770px;
+}
+.navitem-text{
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.nav-svg-inner-fill{
+    pointer-events: all;
+}
+
+.nav-svg-inner-stroke{
+    opacity: 0;
+}
+
+.nav-svg-inner-fill:hover{
+    cursor: pointer;
+    opacity:0.6;
+} 
+
+
+.nav-svg-inner-stroke-hover{
+    opacity: 0.6;
+}
+
+.navitem-text-hover{  
+    opacity: 1;
+    font-size: 24px;
+}
+
+.active-link .nav-svg-inner-fill{
+    opacity: 1;
+}
+
+.active-link .nav-svg-inner-stroke{
+    opacity: 1;
+}
+.active-link .navitem-text{
+    opacity: 1;
+    fill: red;
+}
