@@ -15,7 +15,7 @@ export const About = () => {
       </div>
      
       <div>
-        <p className='about-description'>Hello, I'm Lars, an aspiring web developer and software developer with a strong passion for creating user-friendly and visually appealing websites. While I may not have a long list of professional projects under my belt, my journey has been fueled by my dedication to mastering the craft of web development.</p>
+        <p className='about-description'>Hello, I'm Lars, an aspiring web and software developer with a strong passion for creating user-friendly and visually appealing websites. While I may not have a long list of professional projects under my belt, my journey has been fueled by my dedication to mastering the craft of web development.</p>
       </div>
     </div>
   )
