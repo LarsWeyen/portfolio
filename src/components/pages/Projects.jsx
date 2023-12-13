@@ -10,7 +10,7 @@ export const Projects = () => {
     id:1,
     title: "Game Review App",
     stack:["C#", "MS SQL Server",".NET Maui","Xaml"],
-    image: "src/assets/OnePlus 10T.png",
+    image: "/images/OnePlus 10T.png",
     description: "Developed a mobile game review app using .NET MAUI, leveraging its cross-platform capabilities to create a consistent user experience across iOS and Android. Implemented an API for the backend, allowing users to review and rate games. Integrated a separate API to fetch game information, including descriptions, ratings, and screenshots, to provide users with up-to-date and comprehensive details.",
     github: "https://github.com/LarsWeyen/Project-C-Mobile-2022-2023"
   },
@@ -18,7 +18,7 @@ export const Projects = () => {
     id:2,
     title: "Configuration Management Database",
     stack:["Python", "Django","HTML","JavaScript"],
-    image: "src/assets/cmdb.png",
+    image: "/images/cmdb.png",
     description: "During my internship, I had the opportunity to work on building a CMDB system that serves as a centralized repository for storing and managing information related to hardware, software, and other IT assets. This project is a result of my hard work and dedication to creating a reliable and user-friendly CMDB solution.",
     github: "https://github.com/LarsWeyen/cmdb-django"
   },
@@ -26,7 +26,7 @@ export const Projects = () => {
     id:3,
     title: "Flan Webshop",
     stack:["C#", "ASP .NET","MS SQL Server","Blazor","Oauth"],
-    image: "src/assets/pie.png",
+    image: "/images/pie.png",
     description: "With a team of 3, we developed an e-commerce website as part of a school project. We used ASP .NET for the frontend and backend with Blazor pages, implementing features such as being able to login using a Github, Google or Duende account, and product catalog management."
   }
 ]

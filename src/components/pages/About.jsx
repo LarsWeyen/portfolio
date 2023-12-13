@@ -11,7 +11,7 @@ export const About = () => {
         <rect x="14" y="29" width="284" height="287" stroke="#E3FFFF" strokeWidth="2"/>
         <path d="M85.5 1L128 21H309V345H217.5L182 330.5H1V1H85.5Z" stroke="#E3FFFF"/>
       </svg>
-      <img className='about-image' src="src/assets/headshot 1.png" alt="headshot" />
+      <img className='about-image' src="/images/headshot 1.png" alt="headshot" />
       </div>
      
       <div>

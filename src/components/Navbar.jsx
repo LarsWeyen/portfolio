@@ -12,7 +12,7 @@ export const Navbar = () => {
             })}
           </div>
             
-           <img className='nav-hr' src="src/assets/hr.png" alt="hr line" />
+           <img className='nav-hr' src="/images/hr.png" alt="hr line" />
         </div>
         
     </nav>

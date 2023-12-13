@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <img className='top' src="src/assets/top.png" alt="top" />
+      <img className='top' src="/images/top.png" alt="top" />
       <main>
         <Navbar/>
         <Routes>
@@ -18,7 +18,7 @@ function App() {
         </Routes>
       </main>
       
-      <img className='bot' src="src/assets/bot.png" alt="bottom" />
+      <img className='bot' src="/images/bot.png" alt="bottom" />
     </>
   )
 }
