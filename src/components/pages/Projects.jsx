@@ -16,6 +16,14 @@ export const Projects = () => {
   },
   {
     id:2,
+    title: "Shortcut Mastery",
+    stack:["React", "HTML","CSS","JavaScript"],
+    image: "/images/Shortcut.png",
+    description: "Developed a interactive online platform to learn Visual Studio Code shortcuts. The website offers hands-on exercises to improve programmers' productivity",
+    github: "https://github.com/LarsWeyen/shortcut-learner"
+  },
+  {
+    id:3,
     title: "Configuration Management Database",
     stack:["Python", "Django","HTML","JavaScript"],
     image: "/images/cmdb.png",
@@ -23,7 +31,7 @@ export const Projects = () => {
     github: "https://github.com/LarsWeyen/cmdb-django"
   },
   {
-    id:3,
+    id:4,
     title: "Flan Webshop",
     stack:["C#", "ASP .NET","MS SQL Server","Blazor","Oauth"],
     image: "/images/pie.png",
@@ -47,7 +55,7 @@ const [isHover,setIsHover] = useState(false);
       {currentProjects.map((project,index)=>{
                 return(
                   <div className='projects-container' key={index}>
-                    <div className='project-image-container'>
+                    <div className='project-image-container'>                  
                       <img className='project-image' src={project.image} alt="project image" />
                       <svg width="504" height="346" viewBox="0 0 504 346" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M260 331H296L353.5 345.5H320L260 331Z" fill="#E3FFFF"/>
